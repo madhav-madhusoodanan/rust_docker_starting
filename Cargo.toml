@@ -7,3 +7,11 @@ edition = "2018"
 
 [dependencies]
 actix-web = "3"
+
+[[bin]]
+name = "backend"
+path = "src/main.rs"
+
+# [build]
+# target = "x86_64-unknown-linux-gnu"
+
